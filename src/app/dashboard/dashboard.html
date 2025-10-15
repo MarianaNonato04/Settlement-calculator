@@ -1,0 +1,41 @@
+<div class="geo-container">
+  <section class="dashboard-section">
+    <header class="dashboard-header">
+      <h1>Calculadora de Recalque</h1>
+      <a href="#" class="back-link">Voltar ao Dashboard <i class="icon-logout"></i></a>
+    </header>
+
+    <div class="cards-grid">
+      <div class="card large-card">
+        <div class="card-content" (click)="onClickVazao()">
+          <h3>Vazão</h3>
+          <p class="formula">Q = V / t ou Q = a * v</p>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Velocidade do Fluido</h3>
+         <span>Q = ΔV / Δt</span>
+      </div>
+      <div class="card">
+        <h3>Número de Reynolds</h3>
+        <span>Re = puL / u</span>
+      </div>
+      <div class="card">
+        <h3>Fator de Atrito</h3>
+        <span>f = 64 / Re</span>
+      </div>
+      <div class="card">
+        <h3>Perda de Carga</h3>
+        <span>h_f = f * L * V²/2g</span>
+      </div>
+      <div class="card">
+        <h3>Carga Manométrica</h3>
+        <span>P = p * g * H</span>
+      </div>
+      <div class="card">
+        <h3>Potência Requerida pela Bomba</h3>
+        <span>P_util = (Q x H x ρ x g) / 1000</span>
+      </div>
+    </div>
+  </section>
+</div>

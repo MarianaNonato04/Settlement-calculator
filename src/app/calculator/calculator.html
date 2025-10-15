@@ -1,0 +1,51 @@
+<div class="geo-container">
+  <section class="dashboard-section">
+    <header class="dashboard-header">
+      <h1>Calculadora de Recalque</h1>
+      <a href="#" class="back-link">Voltar ao Dashboard<i class="icon-logout"></i></a>
+    </header>
+  </section>
+
+  <section class="calculator-section">
+    <div class="calculator-header">
+      <h2>Cálculando Vazão</h2>
+      <p class="formula-display">Q = V / t ou Q = a * v</p>
+    </div>
+
+    <div class="calculator-body">
+      <div class="info-list">
+        <ul>
+          <li><strong>legenda:</strong></li>
+          <li>Q = Vazão</li>
+          <li> V = Volume do fluido</li>
+          <li>t = Tempo</li>
+        </ul>
+      </div>
+
+      <div class="calculator-form">
+        <div class="form-group">
+          <label for="velocity">Volume do fluido (V):</label>
+          <input type="number" id="velocity" placeholder="Insira o Volume do fluido">
+        </div>
+        <div class="form-group">
+          <label for="area">Tempo (t):</label>
+          <input type="number" id="area" placeholder="Insira o tempo">
+        </div>
+
+        <button class="btn btn-primary">Calcular</button>
+
+        <div class="result-area">
+          <label>Resultado:</label>
+          <div class="result-display">
+            <span>--- m/s</span>
+            <i class="icon-chart-bar"></i>
+          </div>
+        </div>
+
+        <button class="btn btn-secondary">Salvar Calculação</button>
+      </div>
+    </div>
+
+    <button class="fab">+</button>
+  </section>
+</div>
